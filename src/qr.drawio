@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0">
+  <diagram name="Página-1" id="P7uaEJZ-Ms9m92tBgc29">
+    <mxGraphModel dx="1453" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-6" edge="1" parent="1" source="7wOpvHJ8tRQaOg2c92u2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7wOpvHJ8tRQaOg2c92u2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#66B2FF);" value="Seleccion de producto POS" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-7" edge="1" parent="1" source="7wOpvHJ8tRQaOg2c92u2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7wOpvHJ8tRQaOg2c92u2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#66B2FF);" value="Cantidad producto POS" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-8" edge="1" parent="1" source="7wOpvHJ8tRQaOg2c92u2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7wOpvHJ8tRQaOg2c92u2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#66FF66);" value="Generacion QR, se genera la transccion con los montos actuales" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-9" edge="1" parent="1" source="7wOpvHJ8tRQaOg2c92u2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7wOpvHJ8tRQaOg2c92u2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Se lee el QR en APP nectar" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-11" edge="1" parent="1" source="7wOpvHJ8tRQaOg2c92u2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7wOpvHJ8tRQaOg2c92u2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Se selecciona el insumo a pagar (puede tener validaciones extras o descuentos&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-14" edge="1" parent="1" source="7wOpvHJ8tRQaOg2c92u2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7wOpvHJ8tRQaOg2c92u2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Se notifica a Punto la venta (A la rama Base)" vertex="1">
+          <mxGeometry height="80" width="120" x="440" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-16" edge="1" parent="1" source="7wOpvHJ8tRQaOg2c92u2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7wOpvHJ8tRQaOg2c92u2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#99FF99);" value="Se recibe la notificacion y se consulta a Nectar el status completo" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#99FF99);" value="Se actualizan los datos y se regresa la info a la POS" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-19" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="340" width="540" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-20" parent="7wOpvHJ8tRQaOg2c92u2-19" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Transaccion QR" vertex="1">
+          <mxGeometry height="30" width="110" x="10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#66FF66);" value="API DELTA" vertex="1">
+          <mxGeometry height="50" width="80" x="680" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#66B2FF);" value="POS" vertex="1">
+          <mxGeometry height="40" width="40" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFFFF);" value="APP" vertex="1">
+          <mxGeometry height="40" width="40" x="600" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#66B2FF);" value="Seleccion de producto POS" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Envio de afiliado" vertex="1">
+          <mxGeometry height="80" width="120" x="400" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="7wOpvHJ8tRQaOg2c92u2-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#99FF99);" value="Registra al afiliado" vertex="1">
+          <mxGeometry height="80" width="120" x="530" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="rv7qpgpujqhwQ9n7NSQR-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" value="API BASE" vertex="1">
+          <mxGeometry height="80" width="80" x="680" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
